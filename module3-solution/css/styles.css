@@ -68,15 +68,18 @@ div h2 {
 }
 
 /********** Other than extra small devices **********/
-@media (min-width: 577px) {
+@media (min-width: 767px) {
     /* Header */
     #navbarSupportedContent {
+        visibility: hidden;
+    }
+    #navbarSupportedContent a {
         visibility: hidden;
     }
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     /* Header */
     #navbarSupportedContent {
         position:relative;
