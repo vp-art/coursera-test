@@ -23,10 +23,6 @@ body h1 {
     margin:0;
     padding: 0;
 }
-.nav-item a:hover, .nav-item a:focus{
-    text-decoration: none;
-    background-color: darkgray;
-}
 
 .navbar-brand {
     text-shadow: 1px 1px 1px #222;
@@ -85,6 +81,10 @@ div h2 {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
     /* Header */
+    .nav-item a:hover, .nav-item a:focus{
+        text-decoration: none;
+        background-color: darkgray;
+    }
     #navbarSupportedContent {
         position:relative;
         visibility: visible;
