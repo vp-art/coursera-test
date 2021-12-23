@@ -23,8 +23,13 @@ body h1 {
     margin:0;
     padding: 0;
 }
+.nav-item a:hover, .nav-item a:focus{
+    text-decoration: none;
+    background-color: darkgray;
+}
 
 .navbar-brand {
+    text-shadow: 1px 1px 1px #222;
     position:relative;
     float:left;
     clear: both;
@@ -39,7 +44,7 @@ body h1 {
     color: gold;
 }
 
-.container button.navbar-toggler {
+.container button.navbar-toggler, .container button.navbar-toggler:hover {
     clear: both;
     margin-top: auto;
 }
@@ -57,10 +62,9 @@ body h1 {
     text-align:center;
 }
 
-.main-content {
+.main-content .row {
     margin: 15px;
     background-color: beige;
-    height: 1000px;
 }
 
 div h2 {
@@ -89,7 +93,7 @@ div h2 {
       padding-top: 10px;
       height: 80px;
     }
-    button {
+    button{
         float:right;
     }
     #navbarSupportedContent a { /* Collapsed nav menu text */
@@ -98,7 +102,6 @@ div h2 {
     #navbarSupportedContent a{ /* Collapsed nav menu glyph */
         color:white;
         font-size: 1em;
-        margin-right: 5px;
     }
      
     #nav-list {
